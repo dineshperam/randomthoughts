@@ -1,0 +1,65 @@
+[
+    {
+        "id":1,
+        "name": "W1 PISTOL GUN",
+        "price": 200,
+        "image": "weapons/w1.webp",
+        "description": "Cerberus Mythic version of the Gatekeeper Shotgun is one of the best weapons in the current season. It's devastating at close-range combat and lets you reload all shells at once, making it a speedy hitter."
+    },
+    {
+        "id":2,
+        "name": "W1 PISTOL GUN",
+        "price": 200,
+        "image": "weapons/w2.webp",
+        "description": "Cerberus Mythic version of the Gatekeeper Shotgun is one of the best weapons in the current season. It's devastating at close-range combat and lets you reload all shells at once, making it a speedy hitter."
+    },
+    {
+        "id":3,
+        "name": "W1 PISTOL GUN",
+        "price": 200,
+        "image": "weapons/w3.webp",
+        "description": "Cerberus Mythic version of the Gatekeeper Shotgun is one of the best weapons in the current season. It's devastating at close-range combat and lets you reload all shells at once, making it a speedy hitter."
+    },
+    {
+        "id":4,
+        "name": "W1 PISTOL GUN",
+        "price": 200,
+        "image": "weapons/w4.webp",
+        "description": "Cerberus Mythic version of the Gatekeeper Shotgun is one of the best weapons in the current season. It's devastating at close-range combat and lets you reload all shells at once, making it a speedy hitter."
+    },
+    {
+        "id":5,
+        "name": "W1 PISTOL GUN",
+        "price": 200,
+        "image": "weapons/w5.webp",
+        "description": "Cerberus Mythic version of the Gatekeeper Shotgun is one of the best weapons in the current season. It's devastating at close-range combat and lets you reload all shells at once, making it a speedy hitter."
+    },
+    {
+        "id":6,
+        "name": "W1 PISTOL GUN",
+        "price": 200,
+        "image": "weapons/w6.webp",
+        "description": "Cerberus Mythic version of the Gatekeeper Shotgun is one of the best weapons in the current season. It's devastating at close-range combat and lets you reload all shells at once, making it a speedy hitter."
+    },
+    {
+        "id":7,
+        "name": "W1 PISTOL GUN",
+        "price": 200,
+        "image": "weapons/w7.webp",
+        "description": "Cerberus Mythic version of the Gatekeeper Shotgun is one of the best weapons in the current season. It's devastating at close-range combat and lets you reload all shells at once, making it a speedy hitter."
+    },
+    {
+        "id":8,
+        "name": "W1 PISTOL GUN",
+        "price": 200,
+        "image": "weapons/w8.webp",
+        "description": "Cerberus Mythic version of the Gatekeeper Shotgun is one of the best weapons in the current season. It's devastating at close-range combat and lets you reload all shells at once, making it a speedy hitter."
+    },
+    {
+        "id":9,
+        "name": "W1 PISTOL GUN",
+        "price": 200,
+        "image": "weapons/w9.webp",
+        "description": "Cerberus Mythic version of the Gatekeeper Shotgun is one of the best weapons in the current season. It's devastating at close-range combat and lets you reload all shells at once, making it a speedy hitter."
+    }
+]

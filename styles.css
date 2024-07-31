@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=League+Gothic&family=Poppins:wght@300;400;500;600&display=swap');
 body{
     margin: 0;
 }
@@ -71,6 +71,14 @@ header nav li{
     min-width: 100%;
     z-index: -1;
     filter: brightness(0.4);
+}
+@media screen and (max-width: 1452px) {
+    header nav li{
+        color: black;
+    }
+    header .videologo img{
+        filter: brightness(0%);
+    }
 }
 
 
@@ -203,4 +211,55 @@ header nav li{
     transform: rotate(20deg);
     transition-delay: 0.5s;
     bottom: 20px;
+}
+.weaponsec{
+    margin: 0;
+    font-family: Poppins;
+}
+a{
+    color: unset;
+    text-decoration: none;
+}
+.weaponcontainer{
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+.weapontitle{
+    font-size: xx-large;
+    padding: 20px 0;
+}
+.weaponlistproduct .item img{
+    width: 90%;
+    filter: drop-shadow(0 50px 20px #0009);
+}
+.weaponlistproduct{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.weaponlistproduct .item{
+    background-color: #eeeee6;
+    padding: 20px;
+    border-radius: 20px;
+}
+.weaponlistproduct .item h2{
+    font-size: large;
+    font-weight: 500;
+}
+.weaponlistproduct .item .price{
+    letter-spacing: 7px;
+    font-size: small;
+}
+@media screen and (max-width: 992px) {
+    .weaponlistproduct{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width:768px) {
+    .weaponlistproduct{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
