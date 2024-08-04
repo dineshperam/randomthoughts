@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+
     <link rel="stylesheet" href="/styles.css">
 </head>
 
@@ -191,7 +191,7 @@
             </div>
         </div>
     </section>
-    
+
     <section class="weaponsec">
         <div class="weaponcontainer">
             <div class="weapontitle">WEAPONS LIST</div>
@@ -200,35 +200,73 @@
 
     </section>
 
-<script>
-    let products = null;
-    fetch('weapons.json')
-    .then(response => response.json())
-    .then(data => {
-        products = data;
-        console.log(products); 
-        addDatatoHTML();
-    })
+    <script>
+        let products = null;
+        fetch('weapons.json')
+            .then(response => response.json())
+            .then(data => {
+                products = data;
+                console.log(products);
+                addDatatoHTML();
+            })
 
-    let listproduct = document.querySelector('.weaponlistproduct');
-    function addDatatoHTML(){
-        products.forEach(product =>{
-            let newProduct = document.createElement('a');
-            newProduct.href = '/detail.html?id=' + product.id;
-            newProduct.classList.add('item');
-            newProduct.innerHTML = `
+        let listproduct = document.querySelector('.weaponlistproduct');
+        function addDatatoHTML() {
+            products.forEach(product => {
+                let newProduct = document.createElement('a');
+                newProduct.href = '/detail.html?id=' + product.id;
+                newProduct.classList.add('item');
+                newProduct.innerHTML = `
                 <img src="${product.image}">
                 <h2>${product.name}</h2>
                 <div class="price">${product.price}</div>
             `;
-            listproduct.appendChild(newProduct);
-        })
-    }
-</script>
+                listproduct.appendChild(newProduct);
+            })
+        }
+    </script>
+
+    <section class="theslider">
+        <div class="slidersec" style="
+        --width: 300px;
+        --height: 80px;
+        --quantity: 9;
+    ">
+            <div class="listsec">
+                <div class="itemsec" style="--position: 1"><img src="sliderimages/slider1_1.png" alt=""></div>
+                <div class="itemsec" style="--position: 2"><img src="sliderimages/slider1_2.png" alt=""></div>
+                <div class="itemsec" style="--position: 3"><img src="sliderimages/slider1_3.png" alt=""></div>
+                <div class="itemsec" style="--position: 4"><img src="sliderimages/slider1_4.png" alt=""></div>
+                <div class="itemsec" style="--position: 5"><img src="sliderimages/slider1_5.png" alt=""></div>
+                <div class="itemsec" style="--position: 6"><img src="sliderimages/slider1_6.png" alt=""></div>
+                <div class="itemsec" style="--position: 7"><img src="sliderimages/slider1_7.png" alt=""></div>
+                <div class="itemsec" style="--position: 8"><img src="sliderimages/slider1_8.png" alt=""></div>
+                <div class="itemsec" style="--position: 9"><img src="sliderimages/slider1_9.png" alt=""></div>
+            </div>
+        </div>
+
+        <div class="slidersec" style="
+        --width: 200px;
+        --height: 200px;
+        --quantity: 9;
+    ">
+            <div class="listsec">
+                <div class="itemsec" style="--position: 1"><img src="sliderimages/slider2_1.png" alt=""></div>
+                <div class="itemsec" style="--position: 2"><img src="sliderimages/slider2_2.png" alt=""></div>
+                <div class="itemsec" style="--position: 3"><img src="sliderimages/slider2_3.png" alt=""></div>
+                <div class="itemsec" style="--position: 4"><img src="sliderimages/slider2_4.png" alt=""></div>
+                <div class="itemsec" style="--position: 5"><img src="sliderimages/slider2_5.png" alt=""></div>
+                <div class="itemsec" style="--position: 6"><img src="sliderimages/slider2_6.png" alt=""></div>
+                <div class="itemsec" style="--position: 7"><img src="sliderimages/slider2_7.png" alt=""></div>
+                <div class="itemsec" style="--position: 8"><img src="sliderimages/slider2_8.png" alt=""></div>
+                <div class="itemsec" style="--position: 9"><img src="sliderimages/slider2_9.png" alt=""></div>
+            </div>
+        </div>
 
 
+    </section>
 
-    
+
 </body>
 
 </html>
