@@ -235,6 +235,9 @@ a{
     width: 90%;
     filter: drop-shadow(0 50px 20px #0009);
 }
+/* .weaponlistproduct:hover img{
+    transform: translate(0,-40px) rotate(20deg) scale(1.4);
+} */
 .weaponlistproduct{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -322,4 +325,50 @@ a{
     }to{
         left: 100%;
     }
+}
+
+
+
+.master{
+    background-color: #eee;
+    margin: 0;
+}
+.masterlist{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.masteritem{
+    width: 250px;
+    height:250px;
+    background-color: bisque;
+    border-radius: 20px;
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.masteritem img{
+    width:80%;
+    transition: 0.5s;
+}
+.masteritem .content{
+    position: absolute;
+    bottom:20px;
+    display: flex;
+    justify-content: center;
+    left:0;
+    width:100%;
+}
+.masteritem .content div{
+   flex-grow: 1;
+   display: flex;
+   justify-content: center;
+   color:#fff;
+}
+.masteritem:hover img{
+    transform: translate(0,-40px) rotate(20deg) scale(1.4);
 }
